@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+}
+/*Inicio NAVBAR*/
+.navbar {
+  /* padding navbar, para que este mas centrado*/
+  padding-left: 150px;
+  padding-right: 154px;
+}
+.navbar-brand {
+  /*letras de todo el navbar*/
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: gray;
+  opacity: 0.75;
+}
+.nav-item {
+  /*letras al lado del .svg*/
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+
+  opacity: 1;
+}
+/*Fin NAVBAR*/
+
+/* carrousel*/
+.carousel-item img {
+  /* que el carrousel sea background*/
+  max-height: 100vh;
+}
+
+/*Inicio quienes somos*/
+#qui {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+/* Barra hr*/
+#barra {
+  margin: 0;
+  padding: 0;
+  border-top: 2px solid white;
+  width: 1280px;
+  opacity: 1;
+}
+
+p {
+  color: white;
+  font-family: "Lato", sans-serif;
+}
