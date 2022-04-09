@@ -40,12 +40,30 @@ body {
 #barra {
   margin: 0;
   padding: 0;
-  border-top: 2px solid white;
+  border-top: 1px solid white;
   width: 1280px;
   opacity: 1;
+
 }
 
 p {
   color: white;
   font-family: "Lato", sans-serif;
+}
+/* seccion 4 cards*/
+.card-title{
+  color: white;
+  font-weight: 300;
+}
+
+.card-text{
+  color: white;
+  font-weight: 300;
+}
+.card{
+  margin: 0;
+  padding: 0;
+}
+#monta{
+  height: 191px;
 }
