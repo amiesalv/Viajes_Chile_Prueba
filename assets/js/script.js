@@ -5,7 +5,7 @@ $(document).ready(function(){ // necesario para empezar a usar script
     var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel)
 
-
+/*tooltips*/
 $('[data-toggle="tooltip"]').tooltip();
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))

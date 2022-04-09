@@ -43,7 +43,6 @@ body {
   border-top: 1px solid white;
   width: 1280px;
   opacity: 1;
-
 }
 
 /* parrafo quienes somos*/
@@ -52,38 +51,38 @@ p {
   font-family: "Lato", sans-serif;
 }
 /* seccion 4 cards*/
-.card-title{
+.card-title {
   color: white;
   font-weight: 300;
 }
 
-.card-text{
+.card-text {
   color: white;
   font-weight: 300;
 }
-.card{ /* para que la foto sea del porte del card*/
+.card {
+  /* para que la foto sea del porte del card*/
   margin: 0;
   padding: 0;
 }
-#monta{ /*imagen montania que no coincidia la altura con las otras*/
+#monta {
+  /*imagen montania que no coincidia la altura con las otras*/
   height: 191px;
 }
 
 /* nombre, asunto, mensaje en seccion contacto*/
-.form-label{
+.form-label {
   font-family: "Lato", sans-serif;
   color: white;
   font-weight: 400;
 }
 
-footer{ /* colores y texto del footer*/
+footer {
+  /* colores y texto del footer*/
   margin: 0;
-  padding-inline-start: 17rem;
-   background-color: #07caf0;
+
+  background-color: #07caf0;
   color: white;
   font-family: "Lato", sans-serif;
   font-weight: 300;
-}
-#iconos{ /*todos los iconos*/
-  padding-left: 10rem;
 }
