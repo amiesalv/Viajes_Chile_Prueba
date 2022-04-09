@@ -1,294 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!--css boostrap-->
 
-    <script
-      src="https://kit.fontawesome.com/37d4d46fc2.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--font awesome icons-->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!--css boostrap-->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!--google fonts lato 300 400 700-->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!--css propio-->
-    <title>Viajes por Chile</title>
-  </head>
-  <body>
-    <!--navbar transparente-->
-    <nav class="navbar navbar-expand-lg px-2 fixed-top navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="assets/img/viajes.svg"
-            width="30"
-            height="30"
-            class="d-inline-block align-top"
-            alt=""
-            loading="lazy"
-          />
-          Viajes Chile
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="navbar-nav ms-auto nav_menu_collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#inicio"
-                  >Inicio<span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#quienes">Quienes Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#destacados">Destacados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
-              </li>
-            </ul>
-          </div>
+  <script src="https://kit.fontawesome.com/37d4d46fc2.js" crossorigin="anonymous"></script>
+  <!--font awesome icons-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <!--google fonts lato 300 400 700-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--css propio-->
+  <title>Viajes por Chile</title>
+</head>
+
+<body>
+  <!--navbar transparente-->
+  <nav class="navbar navbar-expand-lg px-2 fixed-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt=""
+          loading="lazy" />
+        Viajes Chile
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav ms-auto nav_menu_collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#carrousel">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienSom">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </nav>
-    <!--fin navbar-->
-    <section id="carrousel">
-      <!--background carrousel -->
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="assets/img/carousel1.jpg"
-              class="d-block w-100"
-              alt="carr1"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="assets/img/carousel2.jpg"
-              class="d-block w-100"
-              alt="carr2"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="assets/img/carousel3.jpg"
-              class="d-block w-100"
-              alt="carr3"
-            />
-          </div>
+    </div>
+  </nav>
+  <!--fin navbar-->
+  <section id="carrousel">
+    <!--background carrousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carr1" />
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <!--fin del carousel-->
-    <section>
-      <!--quienes somos hr y 3 parrafos con iconos y tooltips-->
-      <div id="quienSom" class="container">
-        <div class="row">
-          <div>
-            <h1 id="qui" class="text-center my-5">QUIENES SOMOS</h1>
-            <!--nombre centrado con margin-->
-            <br />
-            <hr id="barra" />
-          </div>
-          <br />
-          <div class="col-md-4 justify-content-center">
-            <!--icon avion-->
-            <i class="fa-light fa-plane-departure fa-5x"></i>
-            <p>
-              Una vez, al filo de una lúgubre media noche, mientras débil y
-              cansado, en tristes reflexiones embebido, inclinado sobre un viejo
-              y raro libro de olvidada ciencia, cabeceando, casi dormido, oyóse
-              de súbito un leve golpe, como si suavemente tocaran, tocaran a la
-              puerta de mi cuarto. “Es —dije musitando— un visitante tocando
-              quedo a la puerta de mi cuarto. Eso es todo, y nada más.” ¡Ah!
-              aquel lúcido recuerdo de un gélido diciembre; espectros de brasas
-              moribundas reflejadas en el suelo; angustia del deseo del nuevo
-              día; en vano encareciendo a mis libros dieran tregua a mi dolor.
-              Dolor por la pérdida de Leonora, la única, virgen radiante,
-              Leonora por los ángeles llamada. Aquí ya sin nombre, para siempre.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <!--icon montania abajo-->
-
-            <p>
-              Una vez, al filo de una lúgubre media noche, mientras débil y
-              cansado, en tristes reflexiones embebido, inclinado sobre un viejo
-              y raro libro de olvidada ciencia, cabeceando, casi dormido, oyóse
-              de súbito un leve golpe, como si suavemente tocaran, tocaran a la
-              puerta de mi cuarto. “Es —dije musitando— un visitante tocando
-              quedo a la puerta de mi cuarto. Eso es todo, y nada más.” ¡Ah!
-              aquel lúcido recuerdo de un gélido diciembre; espectros de brasas
-              moribundas reflejadas en el suelo; angustia del deseo del nuevo
-              día; en vano encareciendo a mis libros dieran tregua a mi dolor.
-              Dolor por la pérdida de Leonora, la única, virgen radiante,
-              Leonora por los ángeles llamada. Aquí ya sin nombre, para siempre.
-            </p>
-            <i class="fa-light fa-mountain fa-5x"></i>
-          </div>
-          <div class="col-md-4">
-            <!--icon camino-->
-            <i class="fa-light fa-map-location-dot fa-5x"></i>
-            <p>
-              Una vez, al filo de una lúgubre media noche, mientras débil y
-              cansado, en tristes reflexiones embebido, inclinado sobre un viejo
-              y raro libro de olvidada ciencia, cabeceando, casi dormido, oyóse
-              de súbito un leve golpe, como si suavemente tocaran, tocaran a la
-              puerta de mi cuarto. “Es —dije musitando— un visitante tocando
-              quedo a la puerta de mi cuarto. Eso es todo, y nada más.” ¡Ah!
-              aquel lúcido recuerdo de un gélido diciembre; espectros de brasas
-              moribundas reflejadas en el suelo; angustia del deseo del nuevo
-              día; en vano encareciendo a mis libros dieran tregua a mi dolor.
-              Dolor por la pérdida de Leonora, la única, virgen radiante,
-              Leonora por los ángeles llamada. Aquí ya sin nombre, para siempre.
-            </p>
-          </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carr2" />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carr3" />
         </div>
       </div>
-    </section>
-    <!--fin seccion quienes somos-->
-
-    <section>
-      <!-- destacados con 3 cards-->
-      <div id="destacados" class="container">
-        <div class="row">
-          <h1 id="qui" class="text-center my-5">DESTACADOS</h1>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--fin del carousel-->
+  <section>
+    <!--quienes somos hr y 3 parrafos con iconos y tooltips-->
+    <div id="quienSom" class="container">
+      <div class="row">
+        <div>
+          <h1 id="titulos" class="text-center my-5">QUIENES SOMOS</h1>
           <!--nombre centrado con margin-->
           <br />
           <hr id="barra" />
-          <div
-            class="card col-md-3 bg-info justify-content-center my-5 me-5"
-            style="width: 18rem"
-          >
-            <!--card1-->
-            <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Lorem Ipsum Dolor Dit</h5>
-              <p class="card-text">
-                Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis
-                tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in,
-                eros.
-              </p>
-            </div>
+        </div>
+        <br />
+        <div class="col-md-4 justify-content-center">
+          <!--icon avion-->
+          <div class="text-center bg-info mb-2"><i class="fas fa-plane fa-2x"></i></div>
+          <br>
+          <p>
+            Una vez, al filo de una lúgubre media noche, mientras débil y
+            cansado, en tristes reflexiones embebido, inclinado sobre un viejo
+            y raro libro de olvidada ciencia, cabeceando, casi dormido, oyóse
+            de súbito un leve golpe, como si suavemente tocaran, tocaran a la
+            puerta de mi cuarto. “Es —dije musitando— un visitante tocando
+            quedo a la puerta de mi cuarto. Eso es todo, y nada más.” ¡Ah!
+            aquel lúcido recuerdo de un gélido diciembre; espectros de brasas
+            moribundas reflejadas en el suelo; angustia del deseo del nuevo
+            día; en vano encareciendo a mis libros dieran tregua a mi dolor.
+            Dolor por la pérdida de Leonora, la única, virgen radiante,
+            Leonora por los ángeles llamada. Aquí ya sin nombre, para siempre.
+          </p>
+        </div>
+        <div class="col-md-4 mt-5">
+          <!--icon montania abajo-->
+
+          <p class="mt-2">
+            Una vez, al filo de una lúgubre media noche, mientras débil y
+            cansado, en tristes reflexiones embebido, inclinado sobre un viejo
+            y raro libro de olvidada ciencia, cabeceando, casi dormido, oyóse
+            de súbito un leve golpe, como si suavemente tocaran, tocaran a la
+            puerta de mi cuarto. “Es —dije musitando— un visitante tocando
+            quedo a la puerta de mi cuarto. Eso es todo, y nada más.” ¡Ah!
+            aquel lúcido recuerdo de un gélido diciembre; espectros de brasas
+            moribundas reflejadas en el suelo; angustia del deseo del nuevo
+            día; en vano encareciendo a mis libros dieran tregua a mi dolor.
+            Dolor por la pérdida de Leonora, la única, virgen radiante,
+            Leonora por los ángeles llamada. Aquí ya sin nombre, para siempre.
+          </p>
+          <div class="text-center bg-info"> <i class="fas fa-mountain fa-2x"></i></div>
+        </div>
+        <br>
+        <div class="col-md-4">
+          <!--icon camino-->
+          <div class="text-center bg-info"><i class="fas fa-route fa-2x"></i></div>
+          <br>
+          <p>
+            Una vez, al filo de una lúgubre media noche, mientras débil y
+            cansado, en tristes reflexiones embebido, inclinado sobre un viejo
+            y raro libro de olvidada ciencia, cabeceando, casi dormido, oyóse
+            de súbito un leve golpe, como si suavemente tocaran, tocaran a la
+            puerta de mi cuarto. “Es —dije musitando— un visitante tocando
+            quedo a la puerta de mi cuarto. Eso es todo, y nada más.” ¡Ah!
+            aquel lúcido recuerdo de un gélido diciembre; espectros de brasas
+            moribundas reflejadas en el suelo; angustia del deseo del nuevo
+            día; en vano encareciendo a mis libros dieran tregua a mi dolor.
+            Dolor por la pérdida de Leonora, la única, virgen radiante,
+            Leonora por los ángeles llamada. Aquí ya sin nombre, para siempre.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--fin seccion quienes somos-->
+
+  <section>
+    <!-- destacados con 3 cards-->
+    <div id="destacados" class="container">
+      <div class="row">
+        <h1 id="titulos" class="text-center my-5">DESTACADOS</h1>
+        <!--nombre centrado con margin-->
+        <br />
+        <hr id="barra" />
+        <div class="card col-md-3 bg-info justify-content-center my-5 me-5" style="width: 18rem">
+          <!--card1-->
+          <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum Dolor Dit</h5>
+            <p class="card-text">
+              Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis
+              tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in,
+              eros.
+            </p>
           </div>
-          <div
-            class="card col-md-3 bg-info justify-content-center my-5 me-5"
-            style="width: 18rem"
-          >
-            <!--card2-->
-            <img
-              id="monta"
-              src="assets/img/card2.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Consectetuer Adipiscing Elit</h5>
-              <p class="card-text">
-                Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis
-                tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in,
-                eros.
-              </p>
-            </div>
+        </div>
+        <div class="card col-md-3 bg-info justify-content-center my-5 me-5" style="width: 18rem">
+          <!--card2-->
+          <img id="monta" src="assets/img/card2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Consectetuer Adipiscing Elit</h5>
+            <p class="card-text">
+              Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis
+              tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in,
+              eros.
+            </p>
           </div>
-          <div
-            class="card col-md-3 bg-info justify-content-center my-5 me-5"
-            style="width: 18rem"
-          >
-            <!--card3-->
-            <img src="assets/img/card3.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Fusce Tincidunt, Lorem Nev</h5>
-              <p class="card-text">
-                Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis
-                tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in,
-                eros.
-              </p>
-            </div>
+        </div>
+        <div class="card col-md-3 bg-info justify-content-center my-5 me-5" style="width: 18rem">
+          <!--card3-->
+          <img src="assets/img/card3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Fusce Tincidunt, Lorem Nev</h5>
+            <p class="card-text">
+              Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis
+              tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in,
+              eros.
+            </p>
           </div>
-          <div
-            class="card col-md-3 bg-info justify-content-center my-5"
-            style="width: 18rem"
-          >
-            <!--card4-->
-            <img src="assets/img/card4.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Maecenas Elit Orci</h5>
-              <p class="card-text">
-                Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis
-                tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in,
-                eros.
-              </p>
-            </div>
+        </div>
+        <div class="card col-md-3 bg-info justify-content-center my-5" style="width: 18rem">
+          <!--card4-->
+          <img src="assets/img/card4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Maecenas Elit Orci</h5>
+            <p class="card-text">
+              Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis
+              tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in,
+              eros.
+            </p>
           </div>
         </div>
       </div>
-    </section>
-    <!--fin seccion cards-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-      crossorigin="anonymous"
-    ></script>
-    <!--js boostrap-->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <!--jquery download-->
+    </div>
+  </section>
+  <!--fin seccion cards-->
+  <section>
+    <!--seccion contacto con formulario-->
+    <div id="contacto" class="container">
+      <div class="row">
+        <h1 id="titulos" class="text-center my-5">CONTACTO</h1>
+        <!--nombre centrado con margin-->
+        <br />
+        <hr id="barra" />
+        <!--inicio formulario-->
+        <form>
+          <div class="mb-3 my-5">
+            <label for="inputName1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="inputName1">
+          </div>
+          <div class="mb-3">
+            <label for="inputSubject1" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="inputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+          </div>
+          <div class="mb-4">
+            <button type="submit" class="btn btn-info text-light">Enviar</button>
+          </div>
+      </div>
+    </div>
+    <div>
+      </form>
+    </div>
+    </div>
+  </section>
+  <!--fin seccion contacto-->
 
-    <script src="assets/js/script.js"></script>
-    <!--script js propio-->
-  </body>
+  <footer>
+    <div class="container-fluid py-4">
+      <div class="row align-items-center">
+        <div class="col-xs-12 col-md-12 col-lg-6">
+          <h2 class="mt-4">VIAJES CHILE</h2>
+        </div>
+        <!--colores y estilo en css-->
+        <div id="iconos" class="col-xs-12 col-md-12 col-lg-6  my-1">
+          <!--div iconos-->
+          <i class="fa-brands fa-github-square fa-2x mx-2"></i>
+          <!--icono github-->
+          <i class="fa-brands fa-linkedin fa-2x mx-2"></i>
+          <!--icono linkedin-->
+          <i class="fa-brands fa-twitter fa-2x mx-2"></i>
+          <!--icono twitter-->
+          <i class="fa-brands fa-facebook fa-2x mx-2"></i>
+          <!--icono de facebook-->
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <!--js boostrap-->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <!--jquery download-->
+
+  <script src="assets/js/script.js"></script>
+  <!--script js propio-->
+</body>
+
 </html>
